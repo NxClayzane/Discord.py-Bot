@@ -1,1 +1,1 @@
-Worker: python TraskBot.py
+worker: python TraskBot.py
