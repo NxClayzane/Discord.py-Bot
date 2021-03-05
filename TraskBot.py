@@ -2,11 +2,11 @@ import discord
 from discord.ext import commands
 
 client = discord.Client()
-client = commands.Bot(command_prefix='T.')
+client = commands.Bot(command_prefix='!S.')
 
 @client.event
 async def on_ready():
-    await client.change_presence(status=discord.status.online, activity=discord.Game('T.help'))
+    await client.change_presence(status=discord.status.online, activity=discord.Game('Help-!S'))
     print('logged in as')
     print(client.user.name)
     print(client.user.id)
@@ -35,4 +35,4 @@ async def on_ready():
         if channel is not None:
             await channel.send('Welcome {0.mention}.'.format(member))
 
-client.run('VYekugTGQ1m0GJE94TUlCg97DsqhNKrS')
+client.run('ODAxNDA3NDAwMDgyNjY5NTY4.YAgOzQ.JExP0B0BEtEJj9JnFWscbGN-OFs')
