@@ -35,4 +35,4 @@ async def on_ready():
         if channel is not None:
             await channel.send('Welcome {0.mention}.'.format(member))
 
-client.run('ODAxNDA3NDAwMDgyNjY5NTY4.YAgOzQ.JExP0B0BEtEJj9JnFWscbGN-OFs')
+client.run('')
